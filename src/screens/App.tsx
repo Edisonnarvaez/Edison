@@ -5,7 +5,7 @@ function App() {
   return (
     <section className=' grid grid-rows-[150px_150px_1fr] w-screen h-screen bg-gray-700 font-Roboto'>
       <header className='order-1 bg-app-test sm:order-1'>
-        <p>header</p>
+        <p>header Azure</p>
       </header>
       <section className='order-2 bg-blue-300'>
         <p>menu</p>
