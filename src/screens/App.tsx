@@ -28,7 +28,7 @@ function App() {
     <section className='order-2 grid grid-cols-[1fr_1200px_1fr] bg-black-950'>
       <section className='bg-oxford-blue-800'></section>
       <Routes>
-        <Route path='/' element={<Beginning />} />
+        <Route path='/Beginning' element={<Beginning />} />
         <Route path='/About' element={<About />} />
         <Route path='/Interests' element={<Interests />} />
         <Route path='/Projects' element={<Projects />} />
