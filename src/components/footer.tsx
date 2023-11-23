@@ -6,7 +6,7 @@ const Footer = () => {
   const { navbarItemActive, selectedItemNavbar } = useNavbarStore();
 
   return (
-    <footer className='flex flex-row items-center justify-between px-8 text-sm text-white bg-black-900'>
+    <footer className='flex flex-row items-center justify-between px-8 text-sm text-white bg-black-950'>
       <span>
         © 2023 Edson Stiven Narvaez Paz
       </span>

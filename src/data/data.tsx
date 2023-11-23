@@ -24,7 +24,7 @@ export const dataNavbar = (): NavbarType => ({
     {
       id: 1,
       title: 'Beginning',
-      to: '/',
+      to: '/Beginning',
     },
     {
       id: 2,
