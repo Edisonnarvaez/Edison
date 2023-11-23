@@ -18,24 +18,20 @@ const Beginning = () => {
   <section className='flex-1 relative z-10 p-10'>
     <h1 className='text-6xl font-bold text-electric-violet-600'>Edison Stiven </h1>
     <h1 className='text-2xl font-bold text-electric-violet-600'>Narvaez Paz</h1>
-    <ul className='flex p-2'>
-      <li className='flex items-center text-black-950 bg-white p-2 rounded-10'>
-        <FaFacebook className='mr-2' />
-        <span className='text-black'></span>
-      </li>
-      <li className='flex items-center text-black-950 bg-white p-2 rounded'>
-        <FaInstagram className='mr-2' />
-        <span className='text-black'></span>
-      </li>
-      <li className='flex items-center text-black-950 bg-white p-2 rounded'>
-        <FaWhatsapp className='mr-2' />
-        <span className='text-black'></span>
-      </li>
-      <li className='flex items-center text-black-950 bg-white p-2 rounded'>
-        <FaLinkedin className='mr-2' />
-        <span className='text-black'></span>
-      </li>
-    </ul>
+    <section className="flex mt-4 mb-3">
+      <a href="enlace de tu Facebook" target="_blank" rel="noopener noreferrer">
+        <FaFacebook className="text-2xl mx-2" />
+      </a>
+      <a href="enlace de tu Instagram" target="_blank" rel="noopener noreferrer">
+        <FaInstagram className="text-2xl mx-2" />
+      </a>
+      <a href="enlace de tu Whatsapp" target="_blank" rel="noopener noreferrer">
+        <FaWhatsapp className="text-2xl mx-2" />
+      </a>
+      <a href="enlace de tu Linkedin" target="_blank" rel="noopener noreferrer">
+        <FaLinkedin className="text-2xl mx-2" />
+      </a>
+    </section>
   </section>
 </section>
 

@@ -5,9 +5,6 @@ import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import Content from '../components/content';
 
-
-
-
 function App() {
   return (
     <section className='  w-screen h-screen bg-oxford-blue-800 font-Roboto'>

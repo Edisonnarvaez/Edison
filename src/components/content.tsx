@@ -9,7 +9,7 @@ import Studies from '../screens/Studies';
 
 const Content = () => {
   return (
-    <section className='grid grid-rows-1 bg-oxford-blue-800 overflow-scroll'>
+    <section className='grid grid-rows-1 bg-oxford-blue-800 '>
       <section className='order-2 grid grid-cols-[1fr_1200px_1fr] bg-black-950'>
         <section className='bg-oxford-blue-800'></section>
         <Beginning />
