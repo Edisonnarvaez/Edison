@@ -16,7 +16,7 @@ const Content = () => {
         <section className='bg-oxford-blue-800'></section>
       </section>
 
-      <section className='order-2 grid grid-cols-[1fr_1200px_1fr] bg-black-950'>
+      <section className='order-2 grid grid-cols-[1fr_1200px_1fr] bg-oxford-blue-800'>
         <section className='bg-oxford-blue-800'></section>
 
         <section className='bg-oxford-blue-800 p-4'>
@@ -27,6 +27,7 @@ const Content = () => {
           <Skills />
           <Experience />
           <Studies />
+
         </section>
 
         <section className='bg-oxford-blue-800'></section>
