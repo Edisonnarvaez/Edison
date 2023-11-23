@@ -1,29 +1,47 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
+import { Route, Routes } from 'react-router-dom';
+import Header from '../components/header';
+import Navbar from '../components/navbar';
+import Footer from '../components/footer';
+
+import Beginning from './Beginning';
+import About from './About';
+import Interests from './Interests';
+import Projects from './Projects';
+import Skills from './Skills';
+import Experience from './Experience';
+import Studies from './Studies';
+import NotFound from './NotFound';
+
 
 function App() {
   return (
-    <section className=' grid grid-rows-[150px_150px_1fr] w-screen h-screen bg-gray-700 font-Roboto'>
-      <header className='order-1 bg-app-test sm:order-1'>
-        <p>header Azure</p>
-      </header>
-      <section className='order-2 bg-blue-300'>
-        <p>menu</p>
-      </section>
-
-      <main className='order-3 grid grid-rows-[1fr_60px] '>
-        <section className='bg-red-300 order-1'>
-          <p>content</p>
-        </section>
-        <footer className='bg-green-300 sm:order-2'>
-          <p>footer</p>
-        </footer>
-      </main>
-
-
+    <section className='  w-screen h-screen bg-oxford-blue-800 font-Roboto'>
+    <Header/>
+    <section className='order-2 grid grid-cols-[1fr_1200px_1fr] bg-black-950'>
+      <section className='bg-oxford-blue-800'></section>
+      <Navbar/>
+      <section className='bg-oxford-blue-800'></section>
+    </section>
+   
+    <section className='order-2 grid grid-cols-[1fr_1200px_1fr] bg-black-950'>
+      <section className='bg-oxford-blue-800'></section>
+      <Routes>
+        <Route path='/' element={<Beginning />} />
+        <Route path='/About' element={<About />} />
+        <Route path='/Interests' element={<Interests />} />
+        <Route path='/Projects' element={<Projects />} />
+        <Route path='/Skills' element={<Skills />} />
+        <Route path='/Experience' element={<Experience />} />
+        <Route path='/Studies' element={<Studies />} />
+        <Route path='*' element={<NotFound />} />
+      </Routes>
+      <section className='bg-oxford-blue-800'></section>
+    </section>
+      <Footer />
     </section>
   );
 }
 
 export default App;
-
