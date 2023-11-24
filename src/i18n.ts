@@ -17,7 +17,7 @@ i18n.use(initReactI18next).init({
 
         beginning: "beginning",
           
-        interests: "Ininterests",
+        interests: "Interests",
         projects: "Projects",
         skills: "Skills",
         experience: "Experience",
@@ -45,6 +45,11 @@ i18n.use(initReactI18next).init({
         experience3t: "Information Technician",
         experience13: "May 2019 - Dec 2022",
         experience0: "Experience",
+
+        footerT: "Phone",
+        footerC: "City",
+        footerE: "Email",
+        footerM: "Site Map",
 
 
       },
@@ -86,6 +91,12 @@ i18n.use(initReactI18next).init({
         experience3t: "Tecnico de informacion",
         experience3d: "May 2019 - Dic 2022",
         experience0: "Experiencia",
+
+        footerT: "Teléfono",
+        footerC: "Ciudad",
+        footerE: "Correo Electrónico",
+        footerM: "Mapa del Sitio",
+
 
       
       
