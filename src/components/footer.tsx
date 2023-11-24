@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
         <section className="flex flex-col md:flex-row items-center justify-center mb-14">
           {/* Sección de la foto en la izquierda */}
           <section className="mb-4 md:mb-0">
-            <img src="./public/imagen.jpg" alt="foto footer" className="w-40 h-40 rounded-full" />
+            <img src="/imagen.jpg" alt="foto footer" className="w-40 h-40 rounded-full" />
           </section>
 
           {/* Sección de datos de contacto y redes sociales */}

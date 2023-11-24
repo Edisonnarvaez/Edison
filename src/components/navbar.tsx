@@ -9,6 +9,10 @@ import { FaDownload } from 'react-icons/fa6';
 const Navbar = () => {
   const { navbarItemActive, selectedItemNavbar } = useNavbarStore();
   const { t } = useTranslation(); 
+  const handleDownloadCV = () => {
+    
+    window.open('https://drive.google.com/file/d/1krYKVoNXLn6uLul3tLLB-Eml7aqpT-Tx/view?usp=drive_link', '_blank');
+  };
 
   return (
     <nav className='flex flex-col items-center  min-w-[250px] bg-black-950 '>
@@ -36,7 +40,7 @@ const Navbar = () => {
         <li>
           <button className='flex items-center text-app-gray-700 bg-white p-2 rounded'>
             <FaDownload className='mr-2' />
-            <span className='text-black'>{t('downloadCV')}</span> {/* Traduce el botón de descarga */}
+            <span className='text-black'onClick={handleDownloadCV}>{t('downloadCV')}</span> {/* Traduce el botón de descarga */}
           </button>
         </li>
       </ul>

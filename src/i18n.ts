@@ -15,8 +15,8 @@ i18n.use(initReactI18next).init({
         aboutTitle: "About Me",
         aboutDescription: "I am a software engineer passionate about tackling challenges with experience in the healthcare sector and the development of technological solutions that comply with the regulatory standards of healthcare providers.",
 
-        beginning: "beginning",
-          
+        beginning: "Beginning",
+        about: "About",
         interests: "Interests",
         projects: "Projects",
         skills: "Skills",
