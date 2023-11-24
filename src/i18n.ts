@@ -51,6 +51,10 @@ i18n.use(initReactI18next).init({
         footerE: "Email",
         footerM: "Site Map",
 
+        studies1: "Technical Automotive Technician",
+        studies2: "Systems Technician",
+        studies3: "Software Engineer",
+
 
       },
     },
@@ -96,6 +100,10 @@ i18n.use(initReactI18next).init({
         footerC: "Ciudad",
         footerE: "Correo Electrónico",
         footerM: "Mapa del Sitio",
+
+        studies1: "Bachiller técnico automotriz",
+        studies2: "Técnico de sistemas",
+        studies3: "Ingeniero de software",
 
 
       
