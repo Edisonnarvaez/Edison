@@ -28,7 +28,7 @@ const Carousel: React.FC = () => {
       </section>
 
       <section className="flex-1 h-[375px] justify-center p-2">
-        <img src="./public/slide1.jpg" alt="Slide 2" className="w-full h-full object-cover" />
+        <img src="./public/python.png" alt="Slide 2" className="w-full h-full object-cover" />
           <h2 className="text-4xl font-roboto flex justify-center text-electric-violet-700">Ejercicios de desarrollo en Python</h2>
           <p className="flex item-center text-app-white">En este repositorio se encuentran varios ejercicios de lógica de programación en Python</p>
           <section className="flex justify-center">
@@ -40,7 +40,7 @@ const Carousel: React.FC = () => {
       </section>
 
       <section className="flex-1 h-[375px] justify-center p-2">
-        <img src="./public/slide1.jpg" alt="Slide 3" className="w-full h-full object-cover" />
+        <img src="./public/portafolio.jpg" alt="Slide 3" className="w-full h-full object-cover" />
           <h2 className="text-4xl font-roboto flex justify-center text-electric-violet-700">Portafolio</h2>
           <p className="flex item-center text-app-white">En este repositorio encontrara el codigo del portafolio utilizando Vite + Tailwind</p>
           <section className="flex justify-center">

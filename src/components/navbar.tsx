@@ -8,7 +8,7 @@ const Navbar = () => {
   const { navbarItemActive, selectedItemNavbar } = useNavbarStore();
 
   return (
-    <nav className='flex flex-col items-center min-w-[250px] bg-black-950'>
+    <nav className='flex flex-col items-center  min-w-[250px] bg-black-950 '>
       <ul className='flex flex-row gap-x-6 pt-5 pl-8 pb-5'>
         {dataNavbar().nav.map((item) => (
           <NavLink
