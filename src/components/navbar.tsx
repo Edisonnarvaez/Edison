@@ -1,11 +1,14 @@
+import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { useTranslation } from 'react-i18next'; // Importa useTranslation
 import { dataNavbar } from '../data/data';
 import { useNavbarStore } from '../store/navbarStore';
 
-import {FaDownload} from 'react-icons/fa6';
+import { FaDownload } from 'react-icons/fa6';
 
 const Navbar = () => {
   const { navbarItemActive, selectedItemNavbar } = useNavbarStore();
+  const { t } = useTranslation(); // Obtiene la función de traducción
 
   return (
     <nav className='flex flex-col items-center  min-w-[250px] bg-black-950 '>
@@ -26,12 +29,15 @@ const Navbar = () => {
                   : 'text-app-gray-700'
               }`}
             >
-              {item.title}
+              {t(`${item.title.toLowerCase()}`)} {/* Traduce el título del menú */}
             </span>
           </NavLink>
-        ))},
+        ))}
         <li>
-          <button className='flex items-center text-app-gray-700 bg-white p-2 rounded'><FaDownload className='mr-2' /><span className='text-black'>Download CV</span></button>
+          <button className='flex items-center text-app-gray-700 bg-white p-2 rounded'>
+            <FaDownload className='mr-2' />
+            <span className='text-black'>{t('downloadCV')}</span> {/* Traduce el botón de descarga */}
+          </button>
         </li>
       </ul>
     </nav>

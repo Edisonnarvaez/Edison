@@ -12,7 +12,7 @@ const Beginning = () => {
         <img
           src='./public/portada.jpg'
           alt='Imagen de portada'
-          className='w-full h-full object-cover absolute top-1 left-1 z-1 rounded '
+          className='w-full h-full object-cover absolute top-0 left-0 z-0 rounded '
         />
       <section className='flex-1 relative z-10 p-10'>
       <h1 className='text-6xl font-bold text-electric-violet-600'>Edison Stiven </h1>

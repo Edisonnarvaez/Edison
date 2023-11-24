@@ -4,7 +4,13 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+import { useTranslation } from 'react-i18next';
+import '/src/i18n.ts';
+
 const Carousel: React.FC = () => {
+  
+  const { t } = useTranslation();
+
   const settings = {
     dots: true,
     infinite: true,
@@ -15,10 +21,22 @@ const Carousel: React.FC = () => {
 
   return (
     <Slider {...settings}>
-      <section className="flex-1 h-[375px] justify-center p-2">
+      <section className="flex-1 h-[300px] w-[250px] justify-center p-2 grid items-center bg-gray-800">
         <img src="./public/slide1.jpg" alt="Slide 1" className="w-full h-full object-cover" />
-          <h2 className="text-4xl font-roboto flex justify-center text-electric-violet-700">Patrones De Software</h2>
-          <p className="flex item-center text-app-white">En este repositorio se encuentran varios proyectos en Java cuyo propósito es la implementación de patrones de software.</p>
+        <h2 className="text-4xl font-roboto flex justify-center text-electric-violet-700">{t('slide1')}</h2>
+        <p className="flex item-center text-app-white">{t('slide1D')}</p>
+        <section className="flex justify-center">
+          <button className="flex items-center text-gray-300 bg-gray-800 p-2 rounded border-electric-violet-700">
+            <FaGithub className="mr-2" />
+            <span className="text-black">Github</span>
+          </button>
+        </section>
+      </section>
+
+      <section className="flex-1 h-[300px] w-[250px]  justify-center p-2 bg-gray-800">
+          <img src="./public/python.png" alt="Slide 2" className="w-full h-full object-cover" />
+          <h2 className="text-4xl font-roboto flex justify-center text-electric-violet-700">{t('slide2')}</h2>
+          <p className="flex item-center text-app-white">{t('slide2D')}</p>
           <section className="flex justify-center">
             <button className="flex items-center text-gray-300 bg-gray-800 p-2 rounded border-electric-violet-700">
               <FaGithub className="mr-2" />
@@ -27,22 +45,10 @@ const Carousel: React.FC = () => {
         </section>
       </section>
 
-      <section className="flex-1 h-[375px] justify-center p-2">
-        <img src="./public/python.png" alt="Slide 2" className="w-full h-full object-cover" />
-          <h2 className="text-4xl font-roboto flex justify-center text-electric-violet-700">Ejercicios de desarrollo en Python</h2>
-          <p className="flex item-center text-app-white">En este repositorio se encuentran varios ejercicios de lógica de programación en Python</p>
-          <section className="flex justify-center">
-            <button className="flex items-center text-gray-300 bg-gray-800 p-2 rounded border-electric-violet-700">
-              <FaGithub className="mr-2" />
-              <span className="text-black">Github</span>
-            </button>
-        </section>
-      </section>
-
-      <section className="flex-1 h-[375px] justify-center p-2">
-        <img src="./public/portafolio.jpg" alt="Slide 3" className="w-full h-full object-cover" />
-          <h2 className="text-4xl font-roboto flex justify-center text-electric-violet-700">Portafolio</h2>
-          <p className="flex item-center text-app-white">En este repositorio encontrara el codigo del portafolio utilizando Vite + Tailwind</p>
+      <section className="flex-1 h-[300px] w-[250px]  justify-center p-2 bg-gray-800">
+          <img src="./public/portafolio.jpg" alt="Slide 3" className="w-full h-full object-cover" />
+          <h2 className="text-4xl font-roboto flex justify-center text-electric-violet-700">{t('slide3')}</h2>
+          <p className="flex item-center text-app-white">{t('slide3D')}</p>
           <section className="flex justify-center">
             <button className="flex items-center text-gray-300 bg-gray-800 p-2 rounded border-electric-violet-700">
               <FaGithub className="mr-2" />

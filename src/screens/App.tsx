@@ -5,15 +5,17 @@ import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import Content from '../components/content';
 
+import '/src/i18n.ts';
+
 function App() {
   return (
     <section className='  w-screen h-screen bg-oxford-blue-800 font-Roboto '>
       <section className='flex w-[20px] h-[20xp] bg-black-950'><img src="./public/black.png" alt="black" /></section>
       <section className='relative'>
-      {/* Espacio al principio para el Navbar */}
+      
       <div className='h-32'></div>
       
-      {/* Código que se muestra encima de otros componentes */}
+      
       <section className='fixed top-1 left-1/2 transform -translate-x-1/2 z-10'>
         <Header />
         <section className='order-2 grid grid-cols-[1fr_1200px_1fr] bg-black-950 '>
