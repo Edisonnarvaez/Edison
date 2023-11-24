@@ -22,7 +22,7 @@ const Carousel: React.FC = () => {
   return (
     <Slider {...settings}>
       <section className="flex-1 h-[300px] w-[250px] justify-center p-2 grid items-center bg-gray-800">
-        <img src="./public/slide1.jpg" alt="Slide 1" className="w-full h-full object-cover" />
+        <img src="/slide1.jpg" alt="Slide 1" className="w-full h-full object-cover" />
         <h2 className="text-4xl font-roboto flex justify-center text-electric-violet-700">{t('slide1')}</h2>
         <p className="flex item-center text-app-white">{t('slide1D')}</p>
         <section className="flex justify-center">
@@ -34,7 +34,7 @@ const Carousel: React.FC = () => {
       </section>
 
       <section className="flex-1 h-[300px] w-[250px]  justify-center p-2 bg-gray-800">
-          <img src="./public/python.png" alt="Slide 2" className="w-full h-full object-cover" />
+          <img src="/python.png" alt="Slide 2" className="w-full h-full object-cover" />
           <h2 className="text-4xl font-roboto flex justify-center text-electric-violet-700">{t('slide2')}</h2>
           <p className="flex item-center text-app-white">{t('slide2D')}</p>
           <section className="flex justify-center">
@@ -46,7 +46,7 @@ const Carousel: React.FC = () => {
       </section>
 
       <section className="flex-1 h-[300px] w-[250px]  justify-center p-2 bg-gray-800">
-          <img src="./public/portafolio.jpg" alt="Slide 3" className="w-full h-full object-cover" />
+          <img src="/portafolio.jpg" alt="Slide 3" className="w-full h-full object-cover" />
           <h2 className="text-4xl font-roboto flex justify-center text-electric-violet-700">{t('slide3')}</h2>
           <p className="flex item-center text-app-white">{t('slide3D')}</p>
           <section className="flex justify-center">

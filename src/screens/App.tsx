@@ -10,10 +10,10 @@ import '/src/i18n.ts';
 function App() {
   return (
     <section className='  w-screen h-screen bg-oxford-blue-800 font-Roboto '>
-      <section className='flex w-[20px] h-[20xp] bg-black-950'><img src="./public/black.png" alt="black" /></section>
+      
       <section className='relative'>
       
-      <div className='h-32'></div>
+      <section className='h-32'></section>
       
       
       <section className='fixed top-1 left-1/2 transform -translate-x-1/2 z-10'>

@@ -6,7 +6,7 @@ const SkillsIcon: React.FC = () => {
     alert(`He trabajado con ${technology}. ¿Qué te gustaría saber sobre mi experiencia con ${technology}?`);
   };
 
-  const iconSize = 100; // Tamaño de los iconos en píxeles
+  const iconSize = 100; 
 
   return (
     <section className='flex items-center justify-center h-full'>

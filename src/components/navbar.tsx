@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { useTranslation } from 'react-i18next'; // Importa useTranslation
+import { useTranslation } from 'react-i18next';
 import { dataNavbar } from '../data/data';
 import { useNavbarStore } from '../store/navbarStore';
 
@@ -8,7 +8,7 @@ import { FaDownload } from 'react-icons/fa6';
 
 const Navbar = () => {
   const { navbarItemActive, selectedItemNavbar } = useNavbarStore();
-  const { t } = useTranslation(); // Obtiene la función de traducción
+  const { t } = useTranslation(); 
 
   return (
     <nav className='flex flex-col items-center  min-w-[250px] bg-black-950 '>

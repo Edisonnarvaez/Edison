@@ -10,7 +10,7 @@ const Beginning = () => {
       
       <section className='flex-1 relative'>
         <img
-          src='./public/portada.jpg'
+          src='/portada.jpg'
           alt='Imagen de portada'
           className='w-full h-full object-cover absolute top-0 left-0 z-0 rounded '
         />

@@ -13,7 +13,7 @@ const About = () => {
         <p className="flex justify-center">{t('aboutDescription')}</p>
       </section>
       <section className="flex-1 grid items-center">
-        <img src="./public/perfil.jpg" alt="imagen de perfil" className="w-[350px] h-[440px] object-cover rounded-xl " />
+        <img src="/perfil.jpg" alt="imagen de perfil" className="w-[350px] h-[440px] object-cover rounded-xl " />
       </section>
     </section>
   );

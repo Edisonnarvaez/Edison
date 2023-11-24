@@ -21,7 +21,7 @@ const CarouselStudies: React.FC = () => {
         <h2 className="text-6xl font-roboto flex justify-center text-white">ITSIM</h2>
         <p className="flex justify-center text-app-white">2012 - 2015</p>
         <section className="flex justify-center items-center">
-          <img src="./public/itsim.png" alt="itsim" className="object-cover max-w-full max-h-full" />
+          <img src="/itsim.png" alt="itsim" className="object-cover max-w-full max-h-full" />
         </section>
       </section>
 
@@ -31,7 +31,7 @@ const CarouselStudies: React.FC = () => {
         <h2 className="text-6xl font-roboto flex justify-center text-white">CETEM</h2>
         <p className="flex justify-center text-app-white">2018 - 2019</p>
         <section className="flex justify-center items-center">
-          <img src="./public/cetem.png" alt="cetem" className="object-cover max-w-full max-h-full" />
+          <img src="/cetem.png" alt="cetem" className="object-cover max-w-full max-h-full" />
         </section>
       </section>
 
@@ -41,7 +41,7 @@ const CarouselStudies: React.FC = () => {
         <h2 className="text-6xl font-roboto flex justify-center text-white">UCC</h2>
         <p className="flex justify-center text-app-white">2021 - 2025</p>
         <section className="flex justify-center items-center">
-          <img src="./public/ucc.png" alt="ucc" className="object-cover max-w-full max-h-full" />
+          <img src="/ucc.png" alt="ucc" className="object-cover max-w-full max-h-full" />
         </section>
       </section>
     </Slider>
