@@ -1,4 +1,3 @@
-import { Routes, Route, Navigate } from 'react-router-dom';
 import Beginning from '../screens/Beginning';
 import About from '../screens/About';
 import Interests from '../screens/Interests';
@@ -10,8 +9,8 @@ import Studies from '../screens/Studies';
 const Content = () => {
   return (
     <section className="min-h-screen bg-oxford-blue-800">
-      <section className="order-2 grid grid-cols-[1fr_1200px_1fr] bg-black-950">
-        <section className="bg-oxford-blue-800"></section>
+      <section className="order-2 grid grid-cols-1 md:grid-cols-[1fr_1200px_1fr] bg-black-950">
+        <section className="hidden md:block bg-oxford-blue-800"></section>
         <section className="w-full">
           <section id="beginning" className="scroll-mt-40">
             <Beginning />
@@ -35,7 +34,7 @@ const Content = () => {
             <Studies />
           </section>
         </section>
-        <section className="bg-oxford-blue-800"></section>
+        <section className="hidden md:block bg-oxford-blue-800"></section>
       </section>
     </section>
   );

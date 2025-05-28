@@ -11,7 +11,7 @@ i18n.use(initReactI18next).init({
     en: {
       translation: {
         title: 'Multi-language app',
-        
+
         aboutTitle: "About Me",
         aboutDescription: "I am a software engineer passionate about tackling challenges with experience in the healthcare sector and the development of technological solutions that comply with the regulatory standards of healthcare providers.",
 
@@ -55,16 +55,21 @@ i18n.use(initReactI18next).init({
         studies2: "Systems Technician",
         studies3: "Software Engineer",
 
+        beginningSubtitle: "Software Engineer | Passionate about technology",
+
+        interestsItem1: "Learning new technologies",
+        interestsItem2: "Process optimization",
+        interestsItem3: "Software development",
 
       },
     },
     es: {
       translation: {
         title: 'Aplicación en varios idiomas',
-        
+
         aboutTitle: "Sobre Mí",
         aboutDescription: "Soy un ingeniero de software apasionado por la resolución de desafíos con experiencia en el sector de la salud y en el desarrollo de soluciones tecnológicas que cumplen con los estándares normativos de las IPS.",
-     
+
         beginning: "Inicio",
         about: "Sobre Mí",
         interests: "Intereses",
@@ -74,7 +79,7 @@ i18n.use(initReactI18next).init({
         studies: "Estudios",
         contact: "Contacto",
         downloadCV: "Descargar CV",
-        
+
         interestsTitle: "Intereses",
         interestsDescription: "Mis intereses se centran en la búsqueda de aprender mas sobre la tecnología  y saber e implementar todas las bondades que puede ofrecer. Me gusta explorar nuevas formas de mejorar la eficiencia y disfrutar del proceso.",
 
@@ -105,14 +110,18 @@ i18n.use(initReactI18next).init({
         studies2: "Técnico de sistemas",
         studies3: "Ingeniero de software",
 
+        beginningSubtitle: "Ingeniero de Software | Apasionado por la tecnología",
 
-      
-      
+        interestsItem1: "Aprender nuevas tecnologías",
+        interestsItem2: "Optimización de procesos",
+        interestsItem3: "Desarrollo de software",
+
+      },
     },
-  },
 
-  
-    
-},},
+
+
+  },
+},
 )
 export default i18n;

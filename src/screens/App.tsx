@@ -4,35 +4,31 @@ import Header from '../components/header';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import Content from '../components/content';
-
 import '/src/i18n.ts';
 
 function App() {
+  // Alto estimado del header + navbar (ajusta según tu diseño real)
+  const headerNavbarHeight = 'h-[140px] md:h-[120px]';
+
   return (
-    <section className='  w-screen h-screen bg-oxford-blue-800 font-Roboto '>
-      
-      <section className='relative'>
-      
-      <section className='h-32'></section>
-      
-      
-      <section className='fixed top-1 left-1/2 transform -translate-x-1/2 z-50'>
-        <Header />
-        <section className='order-2 grid grid-cols-[1fr_1200px_1fr] bg-black-950 '>
-          <section className='bg-oxford-blue-800'></section>
+    <section className="min-h-screen w-full bg-oxford-blue-800 font-Roboto flex flex-col">
+      {/* Header + Navbar fijos arriba */}
+      <section className="fixed top-0 left-0 w-full z-50 flex flex-col items-center pointer-events-none">
+        <div className="w-full max-w-6xl px-2 pointer-events-auto">
+          <Header />
           <Navbar />
-          <section className='bg-oxford-blue-800'></section>
-        </section>
+        </div>
       </section>
 
+      {/* Espacio reservado para header + navbar */}
+      <div className={`${headerNavbarHeight} w-full`} />
 
-      </section>
-      <Content/>
-      
-    <section className='order-2 grid grid-cols-[1fr_1200px_1fr] bg-black-950'>
-      
-      <section className='bg-oxford-blue-800'></section>
-    </section>
+      {/* Contenido principal */}
+      <main className="flex-1 w-full flex flex-col items-center">
+        <Content />
+      </main>
+
+      {/* Footer */}
       <Footer />
     </section>
   );

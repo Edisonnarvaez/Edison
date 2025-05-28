@@ -6,11 +6,11 @@ const SkillsIcon: React.FC = () => {
     alert(`He trabajado con ${technology}. ¿Qué te gustaría saber sobre mi experiencia con ${technology}?`);
   };
 
-  const iconSize = 100; 
+  const iconSize = 48; // Más pequeño para móvil
 
   return (
-    <section className='flex items-center justify-center h-full'>
-      <section className="grid grid-cols-6 gap-4 p-2">
+    <section className='flex items-center justify-center h-full w-full'>
+      <section className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4 p-2">
         <FaGithub size={iconSize} onClick={() => handleIconClick('GitHub')} className="cursor-pointer" />
         <FaGit size={iconSize} onClick={() => handleIconClick('Git')} className="cursor-pointer" />
         <FaFigma size={iconSize} onClick={() => handleIconClick('Figma')} className="cursor-pointer" />
