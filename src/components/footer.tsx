@@ -35,7 +35,12 @@ const Footer: React.FC = () => {
         </section>
         <section className="text-center md:text-left">
           <h2 className="text-xl font-bold mb-4 text-electric-violet-400">{t('footerM')}</h2>
-          <ul className="flex flex-wrap justify-center md:justify-start gap-2">
+          <ul className="
+    grid grid-cols-2 
+    sm:grid-cols-3 
+    gap-x-8 gap-y-2 
+    items-center md:items-start
+    ">
             <li>
               <a className="hover:text-electric-violet-400 transition" href="#beginning">{t('beginning')}</a>
             </li>
@@ -61,15 +66,10 @@ const Footer: React.FC = () => {
               <a className="hover:text-electric-violet-400 transition" href="#contact">{t('contact')}</a>
             </li>
           </ul>
-          <ul className="space-y-2 text-center md:text-left">
-            <li className="before:content-['•'] before:text-electric-violet-400 before:mr-2">{t('interestsItem1')}</li>
-            <li className="before:content-['•'] before:text-electric-violet-400 before:mr-2">{t('interestsItem2')}</li>
-            <li className="before:content-['•'] before:text-electric-violet-400 before:mr-2">{t('interestsItem3')}</li>
-          </ul>
         </section>
       </section>
       <span className="flex justify-center mt-6 text-white/60 text-sm">
-        © 2023 Edison Stiven Narvaez Paz
+        © {new Date().getFullYear()} Edison Stiven Narvaez Paz
       </span>
     </footer>
   );

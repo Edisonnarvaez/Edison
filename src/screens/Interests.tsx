@@ -16,9 +16,9 @@ const Interests = () => {
         <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold text-electric-violet-400 mb-4 text-center md:text-left">{t('interestsTitle')}</h1>
         <p className="text-base sm:text-lg md:text-xl text-white/80 mb-4 text-center md:text-left">{t('interestsDescription')}</p>
         <ul className="space-y-2 text-center md:text-left">
-          <li className="before:content-['•'] before:text-electric-violet-400 before:mr-2">Aprender nuevas tecnologías</li>
-          <li className="before:content-['•'] before:text-electric-violet-400 before:mr-2">Optimización de procesos</li>
-          <li className="before:content-['•'] before:text-electric-violet-400 before:mr-2">Desarrollo de software</li>
+          <li className="before:content-['•'] before:text-electric-violet-400 before:mr-2">{t('interestsItem1')}</li>
+          <li className="before:content-['•'] before:text-electric-violet-400 before:mr-2">{t('interestsItem2')}</li>
+          <li className="before:content-['•'] before:text-electric-violet-400 before:mr-2">{t('interestsItem3')}</li>
         </ul>
       </section>
     </section>
