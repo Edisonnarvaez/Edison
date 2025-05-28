@@ -55,22 +55,22 @@ const Footer: React.FC = () => {
               <a href="#about">{t('about')}</a>
             </li>
             <li className="lg:w-1/4 md:w-full mx-2 mb-2">
-              <a href="#Interests">{t('interests')}</a>
+              <a href="#interests">{t('interests')}</a>
             </li>
             <li className="lg:w-1/4 md:w-full mx-2 mb-2">
-              <a href="#Projects">{t('projects')}</a>
+              <a href="#projects">{t('projects')}</a>
             </li>
             <li className="lg:w-1/4 md:w-full mx-2 mb-2">
-              <a href="#Skills">{t('skills')}</a>
+              <a href="#skills">{t('skills')}</a>
             </li>
             <li className="lg:w-1/4 md:w-full mx-2 mb-2">
-              <a href="#Experience">{t('experience')}</a>
+              <a href="#experience">{t('experience')}</a>
             </li>
             <li className="lg:w-1/4 md:w-full mx-2 mb-2">
-              <a href="#Studies">{t('studies')}</a>
+              <a href="#studies">{t('studies')}</a>
             </li>
             <li className="lg:w-1/4 md:w-full mx-2 mb-2">
-              <a href="#Contact">{t('contact')}</a>
+              <a href="#contact">{t('contact')}</a>
             </li>
           </ul>
         </section>

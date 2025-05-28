@@ -16,7 +16,7 @@ function App() {
       <section className='h-32'></section>
       
       
-      <section className='fixed top-1 left-1/2 transform -translate-x-1/2 z-10'>
+      <section className='fixed top-1 left-1/2 transform -translate-x-1/2 z-50'>
         <Header />
         <section className='order-2 grid grid-cols-[1fr_1200px_1fr] bg-black-950 '>
           <section className='bg-oxford-blue-800'></section>

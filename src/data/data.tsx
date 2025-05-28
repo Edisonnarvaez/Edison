@@ -1,6 +1,3 @@
-
-
-
 type NavItemType = {
   id: number;
   title: string;
@@ -26,43 +23,43 @@ export const dataNavbar = (): NavbarType => ({
   nav: [
     {
       id: 1,
-      title: 'Beginning',
-      to: '/Beginning',
+      title: 'beginning',
+      to: '/beginning',
     },
     {
       id: 2,
-      title: 'About',
-      to: '/About',
+      title: 'about',
+      to: '/about',
     },
     {
       id: 3,
-      title: 'Interests',
-      to: '/Interests',
+      title: 'interests',
+      to: '/interests',
     },
     {
       id: 4,
-      title: 'Projects',
-      to: '/Projects',
+      title: 'projects',
+      to: '/projects',
     },
     {
       id: 5,
-      title: 'Skills',
-      to: '/Skills',
+      title: 'skills',
+      to: '/skills',
     },
     {
       id: 6,
-      title: 'Experience',
-      to: '/Experience',
+      title: 'experience',
+      to: '/experience',
     },
     {
       id: 7,
-      title: 'Studies',
-      to: '/Studies',
+      title: 'studies',
+      to: '/studies',
     },
     {
       id: 8,
-      title: 'Contact',
-      to: '/Contact',
+      title: 'contact',
+      to: '/contact',
     },
   ],
 });
