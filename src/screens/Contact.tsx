@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useScrollAnimation } from '../hooks/useScrollAnimation';
+import { useScrollAnimationHeading, useScrollAnimationDiv } from '../hooks/useScrollAnimation';
 import { FaUser, FaEnvelope, FaCommentDots, FaPaperPlane, FaCheckCircle, FaExclamationTriangle, FaPhone } from 'react-icons/fa';
 import LoadingSpinner from '../components/LoadingSpinner';
 
 interface FormData {
   name: string;
   email: string;
-  phone: string;  // ✅ Nuevo campo
+  phone: string;
   message: string;
 }
 
@@ -18,13 +18,13 @@ interface FormStatus {
 
 const Contact = () => {
   const { t } = useTranslation();
-  const { ref: titleRef, isVisible: titleVisible } = useScrollAnimation();
-  const { ref: formRef, isVisible: formVisible } = useScrollAnimation();
+  const { ref: titleRef, isVisible: titleVisible } = useScrollAnimationHeading(); // ✅ Hook específico para heading
+  const { ref: formRef, isVisible: formVisible } = useScrollAnimationDiv(); // ✅ Hook específico para div
 
   const [formData, setFormData] = useState<FormData>({
     name: '',
     email: '',
-    phone: '',  // ✅ Inicializar el nuevo campo
+    phone: '',
     message: ''
   });
 
@@ -51,7 +51,6 @@ const Contact = () => {
       newErrors.email = t('emailInvalid') || 'El email no es válido';
     }
 
-    // ✅ Validación para teléfono
     if (!formData.phone.trim()) {
       newErrors.phone = t('phoneRequired') || 'El teléfono es requerido';
     } else if (!/^[\+]?[1-9][\d]{0,15}$/.test(formData.phone.replace(/[\s\-\(\)]/g, ''))) {
@@ -75,7 +74,6 @@ const Contact = () => {
       [name]: value
     }));
 
-    // Limpiar error del campo cuando el usuario empiece a escribir
     if (errors[name as keyof FormData]) {
       setErrors(prev => ({
         ...prev,
@@ -103,7 +101,7 @@ const Contact = () => {
         body: JSON.stringify({
           name: formData.name,
           email: formData.email,
-          phone: formData.phone,  // ✅ Incluir teléfono
+          phone: formData.phone,
           message: formData.message,
           timestamp: new Date().toISOString()
         })
@@ -114,7 +112,6 @@ const Contact = () => {
         message: t('messageSent') || '¡Mensaje enviado exitosamente!' 
       });
 
-      // Limpiar formulario
       setFormData({ name: '', email: '', phone: '', message: '' });
 
       setTimeout(() => {

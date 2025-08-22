@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { useTranslation } from 'react-i18next';
-import { useScrollAnimation } from '../hooks/useScrollAnimation';
+import { useScrollAnimationDiv } from '../hooks/useScrollAnimation';
 import '/src/i18n.ts';
 
 const studies = [
@@ -29,7 +29,7 @@ const studies = [
 
 const CarouselStudies: React.FC = () => {
   const { t } = useTranslation();
-  const { ref, isVisible } = useScrollAnimation();
+  const { ref, isVisible } = useScrollAnimationDiv(); // ✅ Usar el hook específico
   
   const settings = {
     dots: true,
