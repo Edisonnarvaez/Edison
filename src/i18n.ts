@@ -61,6 +61,30 @@ i18n.use(initReactI18next).init({
         interestsItem2: "Process optimization",
         interestsItem3: "Software development",
 
+        // Nuevas traducciones para Contact con teléfono
+        getInTouch: "Get in Touch!",
+        contactDescription: "I'd love to hear about your project. Send me a message and I'll respond as soon as possible.",
+        responseTime: "Response within 24 hours",
+        name: "Name",
+        email: "Email",
+        phone: "Phone",  // ✅ Nueva traducción
+        message: "Message",
+        namePlaceholder: "Your full name",
+        emailPlaceholder: "your@email.com",
+        phonePlaceholder: "+1 (555) 123-4567",  // ✅ Nueva traducción
+        messagePlaceholder: "Tell me about your project...",
+        sendMessage: "Send Message",
+        sending: "Sending...",
+        messageSent: "Message sent successfully!",
+        messageError: "Error sending message. Please try again.",
+        nameRequired: "Name is required",
+        emailRequired: "Email is required",
+        emailInvalid: "Email is not valid",
+        phoneRequired: "Phone is required",  // ✅ Nueva traducción
+        phoneInvalid: "Phone number is not valid",  // ✅ Nueva traducción
+        messageRequired: "Message is required",
+        messageMinLength: "Message must be at least 10 characters",
+        viewProject: "View Project"
       },
     },
     es: {
@@ -116,11 +140,32 @@ i18n.use(initReactI18next).init({
         interestsItem2: "Optimización de procesos",
         interestsItem3: "Desarrollo de software",
 
+        // Nuevas traducciones para Contact con teléfono
+        getInTouch: "¡Ponte en contacto!",
+        contactDescription: "Me encantaría conocer tu proyecto. Envíame un mensaje y te responderé lo antes posible.",
+        responseTime: "Respuesta en 24 horas",
+        name: "Nombre",
+        email: "Email",
+        phone: "Teléfono",  // ✅ Nueva traducción
+        message: "Mensaje",
+        namePlaceholder: "Tu nombre completo",
+        emailPlaceholder: "tu@email.com",
+        phonePlaceholder: "+57 3001234567",  // ✅ Nueva traducción
+        messagePlaceholder: "Cuéntame sobre tu proyecto...",
+        sendMessage: "Enviar Mensaje",
+        sending: "Enviando...",
+        messageSent: "¡Mensaje enviado exitosamente!",
+        messageError: "Error al enviar el mensaje. Inténtalo de nuevo.",
+        nameRequired: "El nombre es requerido",
+        emailRequired: "El email es requerido",
+        emailInvalid: "El email no es válido",
+        phoneRequired: "El teléfono es requerido",  // ✅ Nueva traducción
+        phoneInvalid: "El número de teléfono no es válido",  // ✅ Nueva traducción
+        messageRequired: "El mensaje es requerido",
+        messageMinLength: "El mensaje debe tener al menos 10 caracteres",
+        viewProject: "Ver proyecto"
       },
     },
-
-
-
   },
 },
 )

@@ -2,6 +2,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import App from './screens/App.tsx';
 import './assets/styles/index.css';
+import './assets/styles/animations.css';
 import './i18n.ts';
 import ScrollToTop from './components/ScrollToTop';
 
