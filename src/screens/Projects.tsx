@@ -8,50 +8,50 @@ const Projects = () => {
   {
     title: t('slide4'),
     desc: t('slide4D'),
-    link: 'URL_DEL_REPO_BACKEND', // <-- reemplazar con el link real
-    image: '/images/projects/redmedicron-backend.jpg',
+    link: 'https://github.com/Edisonnarvaez/backend_gestion_portal_red_medicron_ips.git', 
+    image: '/images/projects/redmedicron-backend.png',
   },
   // Proyecto 1 - Red Medicron IPS (Frontend)
   {
     title: t('slide5'),
     desc: t('slide5D'),
-    link: 'URL_DEL_REPO_FRONTEND', // <-- reemplazar con el link real
-    image: '/images/projects/redmedicron-frontend.jpg',
+    link: 'https://github.com/RedMedicronIPS/central-red-medicron-ips', 
+    image: '/images/projects/redmedicron-frontend.png',
   },
   // Proyecto 2 - Página institucional Red Medicron
   {
     title: t('slide6'),
     desc: t('slide6D'),
-    link: 'URL_REPO', // <-- reemplazar con el link real
-    image: '/images/projects/redmedicron-web.jpg',
+    link: 'https://github.com/Edisonnarvaez/pagina_red_medicron_ips.git', 
+    image: '/images/projects/redmedicron-web.png',
   },
   // Proyecto 3 - Página institucional Clínica Norte Especialidades
   {
     title: t('slide7'),
     desc: t('slide7D'),
-    link: 'URL_REPO', // <-- reemplazar con el link real
-    image: '/images/projects/clinicanorte-web.jpg',
+    link: 'https://github.com/Edisonnarvaez/paginaClinicaNorte.git', 
+    image: '/images/projects/clinicanorte-web.png',
   },
   // Proyecto 4 - DataInd (Backend)
   {
     title: t('slide8'),
     desc: t('slide8D'),
-    link: 'URL_BACKEND_REPO', // <-- reemplazar con el link real
-    image: '/images/projects/dataind-backend.jpg',
+    link: 'https://github.com/Edisonnarvaez/gestorIndicadores.git', // <-- reemplazar con el link real
+    image: '/images/projects/dataind-backend.png',
   },
   // Proyecto 4 - DataInd (Frontend)
   {
     title: t('slide9'),
     desc: t('slide9D'),
-    link: 'URL_FRONTEND_REPO', // <-- reemplazar con el link real
-    image: '/images/projects/dataind-frontend.jpg',
+    link: 'https://github.com/Edisonnarvaez/frontendgindicators.git', // <-- reemplazar con el link real
+    image: '/images/projects/dataind-frontend.png',
   },
   // Proyecto 5 - Encryptor
   {
     title: t('slide10'),
     desc: t('slide10D'),
-    link: 'URL_REPO', // <-- reemplazar con el link real
-    image: '/images/projects/encryptor.jpg',
+    link: 'https://github.com/Edisonnarvaez/cifrador_RSA.git', 
+    image: '/images/projects/encryptor.png',
   },
     {
       title: t('slide1'),
