@@ -5,13 +5,11 @@ import './assets/styles/index.css';
 import './assets/styles/animations.css';
 import './i18n.ts';
 import ScrollToTop from './components/ScrollToTop';
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
     <ScrollToTop />
     <App />
-    <SpeedInsights />
   </BrowserRouter>
 );
 
