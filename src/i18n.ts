@@ -57,15 +57,22 @@ i18n.use(initReactI18next).init({
         slide10D: "Desktop application in Python with Cryptography and Tkinterdnd2 that encrypts multiple documents using public keys, displays encryption progress, and generates ZIP files.",
 
 
-        experience1: "At Medicron IPS, I currently work as an information professional, performing functions related to information management for external entities, normative reporting, querying relational databases in PostgreSQL, and integrating BI dashboards for internal reporting within the institution. This involves implementing Power BI for the presentation of reports.",
-        experience1t: "Information Professional",
-        experience1d: "Feb 2023 - Present",
-        experience2: "At Medicron IPS, I worked as a payroll professional in the human resources management area, responsible for various functions such as recording personnel-related updates within the institution, including disabilities, permissions, overtime, deductions, among others. Additionally, I handled the hiring and termination processes, including the necessary documentation for payroll and other social benefits payments.",
-        experience2t: "Payroll Professional",
-        experience2d: "Dec 2022 - Feb 2023<",
-        experience3: "At Medicron IPS, as an information technician, I performed functions related to information management for external entities, normative reporting, querying relational databases in PostgreSQL, and integrating BI dashboards for internal reporting within the institution. This involved implementing Power BI for the presentation of reports.",
-        experience3t: "Information Technician",
-        experience13: "May 2019 - Dec 2022",
+        experience1t: "IT Professional",
+        experience1d: "Nov 2024 - Present",
+        experience1: "Currently working as an IT Professional at Red Medicron IPS, where I am responsible for implementing new technologies to strengthen infrastructure and optimize internal processes. I develop and maintain web applications using Python (Django) and React, automate processes with n8n, and manage relational and non-relational databases (PostgreSQL, SQL Server, MongoDB). I also prepare technical process documentation, manage projects in GitLab, and provide specialized support for adopting new digital tools.",
+
+        experience2t: "Information Professional",
+        experience2d: "Feb 2023 - Oct 2024",
+        experience2: "At Red Medicron IPS, I worked as an Information Professional in the Quality Department. I managed and analyzed data for regulatory reports, administered databases (PostgreSQL and SQL Server), designed Power BI dashboards to support decision-making, and integrated data ensuring quality and compliance with institutional and regulatory requirements.",
+
+        experience3t: "Payroll Professional",
+        experience3d: "Dec 2022 - Feb 2023",
+        experience3: "At Red Medicron IPS, I worked as a Payroll Professional in the Human Resources Department. I was responsible for recording employee updates (sick leaves, permissions, overtime, deductions), managing hiring and contract settlements, and preparing payroll and social benefits files, ensuring accuracy and compliance with regulations.",
+
+        experience4t: "Information Technician",
+        experience4d: "May 2019 - Dec 2022",
+        experience4: "I worked as an Information Technician in the Quality Department of Red Medicron IPS. I generated regulatory reports for external entities, performed queries in PostgreSQL databases, and developed Power BI dashboards to support institutional management and present internal information.",
+
         experience0: "Experience",
 
         footerT: "Phone",
@@ -158,15 +165,22 @@ i18n.use(initReactI18next).init({
         slide10D: "Aplicación de escritorio en Python con Cryptography y Tkinterdnd2 que permite encriptar múltiples documentos con claves públicas, mostrar progreso de encriptación y generar archivos ZIP.",
 
 
-        experience1: "En red medicron IPS me desempeño actualmente como profesional de informacion y desempeños funciones relacionadas al manejo de informacion a entes externos reportes normativos con sultas a bases de datos relacionales en postgresql e integracion de tableros BI para la presentacion de reportes a nivel interno de la institucion esto implementando power BI.",
-        experience1t: "Profesional de informacion",
-        experience1d: "Feb 2023 - Presente",
-        experience2: "En red medicron IPS me desempeñe como profesional de nomina en el area de gestion humana encargado de realizar diferentes funciones tales como el registro de novedades del personal de la institucion tales como incapacidades, permisos , horas extras, descuentos entre otros, ademas de realizar la contratacion como liqudacion de contratos al personal y estar a cargo de realizar los archivos necesarios para el pago de nomina y de mas prestaciones sociales.",
-        experience2t: "Profesional de nomina",
-        experience2d: "Dic 2022 - Feb 2023<",
-        experience3: "En red medicron IPS  como tecnico de informacion desempeñe funciones relacionadas al manejo de informacion a entes externos reportes normativos con sultas a bases de datos relacionales en postgresql e integracion de tableros BI para la presentacion de reportes a nivel interno de la institucion esto implementando power BI.",
-        experience3t: "Tecnico de informacion",
-        experience3d: "May 2019 - Dic 2022",
+        experience1t: "Profesional TI",
+        experience1d: "nov 2024 - presente",
+        experience1: "Actualmente me desempeño como Profesional TI en Red Medicron IPS, donde soy responsable de implementar nuevas tecnologías para fortalecer la infraestructura y optimizar procesos internos. Desarrollo y mantengo aplicaciones web con Python (Django) y React, además de automatizar procesos con n8n. Administro bases de datos relacionales y no relacionales (PostgreSQL, SQL Server, MongoDB). Elaboro documentación de procesos tecnológicos, gestiono proyectos en GitLab y brindo soporte especializado en nuevas herramientas digitales.",
+
+        experience2t: "Profesional de Información",
+        experience2d: "feb 2023 - oct 2024",
+        experience2: "En Red Medicron IPS me desempeñé como Profesional de Información en el área de calidad. Gestioné y analicé información para reportes normativos a entes externos, administré bases de datos (PostgreSQL y SQL Server), diseñé tableros de control en Power BI para la toma de decisiones e integré datos asegurando la calidad de la información según requerimientos institucionales y regulatorios.",
+
+        experience3t: "Profesional de Nómina",
+        experience3d: "dic 2022 - feb 2023",
+        experience3: "En Red Medicron IPS trabajé como Profesional de Nómina en el área de gestión humana. Fui responsable del registro de novedades del personal (incapacidades, permisos, horas extras, descuentos), de la contratación y liquidación de contratos laborales, y de la elaboración de archivos para el pago de nómina y prestaciones sociales garantizando exactitud y cumplimiento normativo.",
+
+        experience4t: "Técnico de Información",
+        experience4d: "may 2019 - dic 2022",
+        experience4: "Me desempeñé como Técnico de Información en el área de calidad de Red Medicron IPS. Generé reportes normativos para entes externos, realicé consultas en bases de datos PostgreSQL y desarrollé tableros de control en Power BI para la gestión institucional y la presentación de información interna.",
+
         experience0: "Experiencia",
 
         footerT: "Teléfono",

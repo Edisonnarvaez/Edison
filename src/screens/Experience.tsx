@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
-import { FaBuilding, FaCalendarAlt, FaBriefcase } from 'react-icons/fa';
+import { FaLaptopCode, FaDatabase, FaUsers, FaChartBar } from 'react-icons/fa';
 import '/src/i18n.ts';
 
 const experienceData = [
@@ -8,27 +8,36 @@ const experienceData = [
 		titleKey: 'experience1t',
 		descKey: 'experience1',
 		dateKey: 'experience1d',
-		company: 'RED Medicron IPS',
-		icon: FaBriefcase,
-		gradient: 'from-electric-violet-400 to-electric-violet-600',
+		company: 'Red Medicron IPS',
+		icon: FaLaptopCode,
+		gradient: 'from-purple-400 to-purple-600',
 	},
 	{
 		titleKey: 'experience2t',
 		descKey: 'experience2',
 		dateKey: 'experience2d',
-		company: 'RED Medicron IPS',
-		icon: FaBuilding,
+		company: 'Red Medicron IPS',
+		icon: FaDatabase,
 		gradient: 'from-blue-400 to-blue-600',
 	},
 	{
 		titleKey: 'experience3t',
 		descKey: 'experience3',
 		dateKey: 'experience3d',
-		company: 'RED Medicron IPS',
-		icon: FaCalendarAlt,
+		company: 'Red Medicron IPS',
+		icon: FaUsers,
+		gradient: 'from-pink-400 to-pink-600',
+	},
+	{
+		titleKey: 'experience4t',
+		descKey: 'experience4',
+		dateKey: 'experience4d',
+		company: 'Red Medicron IPS',
+		icon: FaChartBar,
 		gradient: 'from-green-400 to-green-600',
 	},
 ];
+
 
 const Experience = () => {
 	const { t } = useTranslation();
@@ -46,9 +55,8 @@ const Experience = () => {
 		<section className="flex flex-col w-full min-h-[600px] bg-gradient-to-br from-bunker-950 to-oxford-blue-800 mb-10 p-8 rounded-3xl shadow-xl overflow-hidden">
 			<h1
 				ref={titleRef}
-				className={`text-4xl md:text-6xl font-bold text-electric-violet-400 mb-8 text-center transition-all duration-700 ${
-					titleVisible ? 'animate-fade-in-up' : 'opacity-0 translate-y-8'
-				}`}
+				className={`text-4xl md:text-6xl font-bold text-electric-violet-400 mb-8 text-center transition-all duration-700 ${titleVisible ? 'animate-fade-in-up' : 'opacity-0 translate-y-8'
+					}`}
 			>
 				{t('experience0')}
 			</h1>
@@ -66,9 +74,8 @@ const Experience = () => {
 							<section
 								key={index}
 								ref={ref}
-								className={`relative transition-all duration-700 ${
-									isVisible ? 'animate-slide-in-left' : 'opacity-0 translate-x-8'
-								}`}
+								className={`relative transition-all duration-700 ${isVisible ? 'animate-slide-in-left' : 'opacity-0 translate-x-8'
+									}`}
 								style={{ animationDelay: `${index * 200}ms` }}
 							>
 								{/* Timeline dot */}
