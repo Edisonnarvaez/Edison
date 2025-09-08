@@ -47,9 +47,10 @@ const Experience = () => {
 	const exp1Animation = useScrollAnimation();
 	const exp2Animation = useScrollAnimation();
 	const exp3Animation = useScrollAnimation();
+	const exp4Animation = useScrollAnimation(); 
 
 	// Array con las animaciones
-	const experienceAnimations = [exp1Animation, exp2Animation, exp3Animation];
+	const experienceAnimations = [exp1Animation, exp2Animation, exp3Animation, exp4Animation];
 
 	return (
 		<section className="flex flex-col w-full min-h-[600px] bg-gradient-to-br from-bunker-950 to-oxford-blue-800 mb-10 p-8 rounded-3xl shadow-xl overflow-hidden">
