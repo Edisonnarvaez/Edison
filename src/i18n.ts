@@ -35,6 +35,28 @@ i18n.use(initReactI18next).init({
         slide3: "Portfolio",
         slide3D: "In this repository, you will find the code for the portfolio using Vite + Tailwind.",
 
+        slide4: "Red Medicron IPS - Backend",
+        slide4D: "Web application developed with Django and PostgreSQL to manage institutional processes, indicators, users, and roles, featuring JWT and OTP for two-factor authentication.",
+
+        slide5: "Red Medicron IPS - Frontend",
+        slide5D: "Web interface developed with React, Vite, Tailwind, and TypeScript to display institutional information, processes, indicators, and interactive dashboards.",
+
+        slide6: "Red Medicron IPS Website",
+        slide6D: "Institutional website developed with React, Vite, TypeScript, and Tailwind to present general information about the IPS and improve user communication.",
+
+        slide7: "Clínica Norte Especialidades SAS Website",
+        slide7D: "Institutional website developed with React, Vite, TypeScript, and Tailwind for Clínica Norte Especialidades SAS.",
+
+        slide8: "DataInd - Backend",
+        slide8D: "Backend application built with Django and PostgreSQL for health indicators management, two-step authentication (JWT + OTP), and results tracking for analysis.",
+
+        slide9: "DataInd - Frontend",
+        slide9D: "Frontend application built with React, Vite, Tailwind, and TypeScript to manage and visualize health indicators with dashboards and interactive charts.",
+
+        slide10: "Encryptor",
+        slide10D: "Desktop application in Python with Cryptography and Tkinterdnd2 that encrypts multiple documents using public keys, displays encryption progress, and generates ZIP files.",
+
+
         experience1: "At Medicron IPS, I currently work as an information professional, performing functions related to information management for external entities, normative reporting, querying relational databases in PostgreSQL, and integrating BI dashboards for internal reporting within the institution. This involves implementing Power BI for the presentation of reports.",
         experience1t: "Information Professional",
         experience1d: "Feb 2023 - Present",
@@ -113,6 +135,28 @@ i18n.use(initReactI18next).init({
         slide2D: "En este repositorio se encuentran varios ejercicios de lógica de programación en Python",
         slide3: "Portafolio",
         slide3D: "En este repositorio encontrara el codigo del portafolio utilizando Vite + Tailwind",
+
+        slide4: "Red Medicron IPS - Backend",
+        slide4D: "Aplicativo web desarrollado en Django y PostgreSQL que gestiona procesos institucionales, indicadores, usuarios y roles con autenticación JWT y OTP para doble factor de seguridad.",
+
+        slide5: "Red Medicron IPS - Frontend",
+        slide5D: "Interfaz web desarrollada en React, Vite, Tailwind y TypeScript que permite la visualización de información institucional, procesos, indicadores y dashboards interactivos.",
+
+        slide6: "Página Web Red Medicron IPS",
+        slide6D: "Sitio institucional desarrollado en React con Vite, TypeScript y Tailwind que muestra información general de la IPS y facilita la comunicación con los usuarios.",
+
+        slide7: "Página Web Clínica Norte Especialidades SAS",
+        slide7D: "Página institucional desarrollada en React con Vite, TypeScript y Tailwind para la IPS Clínica Norte Especialidades SAS.",
+
+        slide8: "DataInd - Backend",
+        slide8D: "Aplicación backend en Django con PostgreSQL para la gestión de indicadores de salud, autenticación en dos pasos (JWT + OTP) y carga de resultados para análisis.",
+
+        slide9: "DataInd - Frontend",
+        slide9D: "Aplicación frontend en React, Vite, Tailwind y TypeScript que permite gestionar y visualizar indicadores de salud con dashboards y gráficas interactivas.",
+
+        slide10: "Encryptor",
+        slide10D: "Aplicación de escritorio en Python con Cryptography y Tkinterdnd2 que permite encriptar múltiples documentos con claves públicas, mostrar progreso de encriptación y generar archivos ZIP.",
+
 
         experience1: "En red medicron IPS me desempeño actualmente como profesional de informacion y desempeños funciones relacionadas al manejo de informacion a entes externos reportes normativos con sultas a bases de datos relacionales en postgresql e integracion de tableros BI para la presentacion de reportes a nivel interno de la institucion esto implementando power BI.",
         experience1t: "Profesional de informacion",
