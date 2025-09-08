@@ -6,6 +6,7 @@ import Skills from '../screens/Skills';
 import Experience from '../screens/Experience';
 import Studies from '../screens/Studies';
 import Contact from '../screens/Contact';
+import { Analytics } from '@vercel/analytics/next';
 
 const Content = () => {
   return (
@@ -39,7 +40,7 @@ const Content = () => {
             <Contact />
           </section>
         </section>
-        
+        <Analytics />
         <section className="hidden lg:block bg-gradient-to-l from-oxford-blue-800 to-transparent"></section>
       </section>
     </section>

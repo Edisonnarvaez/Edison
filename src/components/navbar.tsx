@@ -4,7 +4,6 @@ import { dataNavbar } from '../data/data';
 import { useNavbarStore } from '../store/navbarStore';
 import { FaDownload, FaBars } from 'react-icons/fa6';
 import { FaTimes } from 'react-icons/fa';
-
 const Navbar = () => {
   const { navbarItemActive, selectedItemNavbar } = useNavbarStore();
   const { t } = useTranslation();
