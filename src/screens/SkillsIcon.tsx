@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { FaGithub, FaGit, FaFigma, FaReact, FaPython, FaHtml5, FaJava, FaGitlab, FaNodeJs, FaJs, FaBootstrap } from 'react-icons/fa';
+import { FaGithub, FaGit, FaFigma, FaReact, FaPython, FaHtml5, FaJava, FaGitlab, FaNodeJs, FaJs, FaBootstrap, FaDatabase } from 'react-icons/fa';
+import { SiFlutter, SiPostgresql, SiMongodb } from 'react-icons/si';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const skillsData = [
@@ -14,6 +15,10 @@ const skillsData = [
   { icon: FaJava, name: 'Java', color: 'hover:text-red-600', level: 80 },
   { icon: FaJs, name: 'JavaScript', color: 'hover:text-yellow-400', level: 88 },
   { icon: FaGitlab, name: 'GitLab', color: 'hover:text-orange-500', level: 75 },
+  { icon: SiFlutter, name: 'Flutter', color: 'hover:text-blue-400', level: 85 },
+  { icon: FaDatabase, name: 'SQL', color: 'hover:text-blue-700', level: 80 },
+  { icon: SiPostgresql, name: 'PostgreSQL', color: 'hover:text-blue-800', level: 75 },
+  { icon: SiMongodb, name: 'MongoDB', color: 'hover:text-green-700', level: 70 },
 ];
 
 const SkillsIcon: React.FC = () => {
@@ -22,7 +27,7 @@ const SkillsIcon: React.FC = () => {
 
   return (
     <section ref={ref} className='flex items-center justify-center h-full w-full overflow-hidden'>
-      <section className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 sm:gap-6 p-4 max-w-4xl mx-auto">
+      <section className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-7 gap-4 sm:gap-6 p-4 max-w-4xl mx-auto">
         {skillsData.map((skill, index) => {
           const IconComponent = skill.icon;
           const isLastRow = index >= skillsData.length - (skillsData.length % 6 || 6);
